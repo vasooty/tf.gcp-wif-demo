@@ -28,8 +28,8 @@ jobs:
     - id: auth
       uses: google-github-actions/auth@v2.0.0  
       with:
-        workload_identity_provider: 'projects/481727303056/locations/global/workloadIdentityPools/github-demo1-pool/providers/github'
-        service_account: 'github-vas@annular-strata-459207-g1.iam.gserviceaccount.com'
+        workload_identity_provider: 'projects/328642025826/locations/global/workloadIdentityPools/github-demo-pool/providers/github'
+        service_account: 'github-wif@optical-mind-471204-a7.iam.gserviceaccount.com'
 
 
           
